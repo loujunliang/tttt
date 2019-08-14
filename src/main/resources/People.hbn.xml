@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<!-- 维护数据库表的字段和实体类的属性的对应关系 -->
+	<class name="com.hcjava.entity.People" table="people">
+		<id name="id" column="id" type="int"/>
+		<property name="name" column="name" type="string"/>
+		<property name="age" column="age" type="int"/>
+	</class>
+</hibernate-mapping>
