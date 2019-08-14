@@ -38,7 +38,9 @@ public class Book {
 
 	@Override
 	public String toString() {
-		return "fffffffffffffBook [id=" + id + ", name=" + name + ", user=" + user + "]";
+
+		return "Book [id=" + id + ", name=" + name + ", user=" + user + "]";
+
 	}
 
 }
